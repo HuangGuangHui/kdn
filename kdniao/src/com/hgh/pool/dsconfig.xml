@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds-config>
+<pool>
+<type>sql2008</type>
+<name>kdniao</name>
+<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+<url>jdbc:sqlserver://172.16.1.25:1433;database=kdniao</url>
+<username>sa</username>
+<password>yd123456</password>
+<maxconn>100</maxconn>
+</pool>
+<pool>
+<type>oracle</type>
+<name>oracle</name>
+<driver>oracle.jdbc.driver.OracleDriver</driver>
+<url>jdbc:oracle:thin:@172.16.1.25:1521:MYORCL</url>
+<username>scott</username>
+<password>Szydit666</password>
+<maxconn>100</maxconn>
+</pool>
+</ds-config>
