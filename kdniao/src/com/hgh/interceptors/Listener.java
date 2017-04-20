@@ -20,7 +20,7 @@ public class Listener implements ServletContextListener{
 //		timer.schedule(new sendSignZmTimer(), 0,10*1000);
 		//签收提取
 //		timer.schedule(new SignListener(), 0, 8*60*1000);
-//		timer.schedule(new SignListener1(), 0, 8*60*1000);
+//		timer.schedule(new SignListener1(), 0, 8*60*1000); 
 //		timer.schedule(new SignListener2(), 0, 8*60*1000);
 //		timer.schedule(new SignListener3(), 0, 8*60*1000);
 		
